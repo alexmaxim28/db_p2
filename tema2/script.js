@@ -35,7 +35,7 @@ function populateUsers(){
         element.appendChild(para);
     }
 }
-async function getArticla(){
+async function getArticle(){
     let image = await fetch("https://picsum.photos/1280/720").then(response =>{
         let img = document.createElement("img");
         img.src = response.url;
